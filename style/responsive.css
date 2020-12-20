@@ -1,0 +1,29 @@
+@media screen and (max-width:800px){
+    header .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header .container .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filme-principal .container{
+        width: 100%;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 190px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .botoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
